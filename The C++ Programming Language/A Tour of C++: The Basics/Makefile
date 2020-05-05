@@ -12,7 +12,6 @@ out = $(in:.cpp=.out)
 
 
 build:
-	@echo $^
 	$(CXX) $(CXXFLAGS) $(in) -o $(out)
 
 
